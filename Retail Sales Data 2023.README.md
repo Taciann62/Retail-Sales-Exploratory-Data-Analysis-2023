@@ -248,11 +248,11 @@ write.csv(Agegroup_purchase_per_month, "Monthly_Agegroup_Trend.csv", row.names =
 
 write.csv(Customer_Behaviour, "Customer_Behaviour.csv", row.names = FALSE)
 
-1, write.csv(Total_Per_month_Product, "Monthly_Product_Purchase.csv", row.names = FALSE)
+write.csv(Total_Per_month_Product, "Monthly_Product_Purchase.csv", row.names = FALSE)
 
 write.csv(Gender_product, "Gender_Product_Purchase.csv", row.names = FALSE)
 
-2. write.csv(Total_spent_on_product, "Retail_Sales_revenue.csv", row.names = FALSE)
+write.csv(Total_spent_on_product, "Retail_Sales_revenue.csv", row.names = FALSE)
 
 write.csv(Total_Purchases_DOW_Product, "Sales_Trend_DOW.csv", row.names = FALSE)
 
