@@ -116,7 +116,7 @@ names(Retail_sales)` *<-shows the column names*
 unique(Retail_sales)
 ```
 
-## Perform basic statistics on the Total amount spent
+## Exploratory Data Analysis
 
 ### Calculate the Total Amount to Ensure Accuracy.
 
@@ -258,10 +258,6 @@ write.csv(Total_Purchases_DOW_Product, "Sales_Trend_DOW.csv", row.names = FALSE)
 
 write.csv(Retail_Revenue, "KPI Cards.csv", row.names = FALSE)
 ```
-
-
-
-
 
 
 
