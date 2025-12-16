@@ -70,7 +70,7 @@ unique(Retail_Sales_Data_retail_sales_dataset)
 
 #### To remove duplicates and have only a unique set
 ```R
-Retail_Sales<-distinct(Retail_Sales_Data_retail_sales_dataset) 
+Retail_sales<-distinct(Retail_Sales_Data_retail_sales_dataset) 
 ```
 *<- renames the dataset*
 
