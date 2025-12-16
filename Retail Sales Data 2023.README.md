@@ -6,7 +6,7 @@ This data analytics project was completed as part of the Oasis Infobyte internsh
 The data was provided by the team through an open-source data platform, Kaggle. It contains a sales record of a retail store from 2023, alongside key fields such as Customer Gender, Product Name, Age, Product type, and the amount and Quantity purchased by each customer.
 
 ### Project Overview
-The Retail store collected a well-rounded dataset of its customers to get insight into their customer behaviour towards the products sold and, in that way, make a more informed business decision. The goal is to perform exploratory data analysis (EDA) to uncover patterns, trends, and insights that can help the retail business make informed decisions.
+The retail store collected a well-rounded dataset of its customers to get insight into their customer behaviour towards the products sold and, in that way, make a more informed business decision. The goal is to perform exploratory data analysis (EDA) to uncover patterns, trends, and insights that can help the retail business make informed decisions.
 Through the analysis of this data, insights will also be provided into customer purchasing behaviour over the year 2023, with each month clearly represented.
 
 ## My Role:
@@ -313,10 +313,10 @@ Gender-based analysis reveals differences in product preference and spending pat
 
 
 ### Recommendations:
-Below are the recommendations for the Retail store: 
+Below are the recommendations for the retail store: 
 - Increase inventory and promotional focus on Electronics during peak months such as May, where demand and revenue peak.
 - Introduce targeted Beauty promotions for Young Adult customers, who show high average spend despite lower overall purchase volume.
-- Schedule and ensure there are more hands to support sales and product promotions around peak sales days like Tuesdays to optimise operational efficiency.
+- Schedule and ensure there are more hands to support sales and product promotions around peak sales days, like Tuesdays, to optimise operational efficiency.
 - Develop gender-informed marketing strategies that particularly promote Electronics to male customers and Beauty/Clothing bundles to female customers.
 - Implement demand stimulation strategies during low-performing months (March and September) using discounts or bundled offers.
 
