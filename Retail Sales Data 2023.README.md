@@ -1,5 +1,33 @@
 # Retail Sales Data 2023 
 
+---
+## Table Of Content
+- [Introduction](#introduction)
+
+- [Project Overview](#project-overview)
+  
+- [Data Analytics Objective](data-analytics-objective)
+
+- [Business Question](business-question)
+
+- [Tools](tools)
+  
+   - [Data preparation and Observation](data-preparation-and-observation)
+  
+- [Data Analytics](data-analytics)
+  
+   - [Data Cleaning and Manipulation](data-cleaning-and-manipulation)
+
+- [Exploratory Data Analysis](exploratory-data-analysis)
+  
+   - [Exploratory Data Analysis](exploratory-data-analysis)
+
+- [Recommendations](recommendations)
+
+- [Data Visualization ](data-visualization )
+
+
+
 ## Introduction
 
 This data analytics project was completed as part of the Oasis Infobyte internship program (December Batch 2025).
@@ -9,10 +37,10 @@ The data was provided by the team through an open-source data platform, Kaggle. 
 The retail store collected a well-rounded dataset of its customers to get insight into their customer behaviour towards the products sold and, in that way, make a more informed business decision. The goal is to perform exploratory data analysis (EDA) to uncover patterns, trends, and insights that can help the retail business make informed decisions.
 Through the analysis of this data, insights will also be provided into customer purchasing behaviour over the year 2023, with each month clearly represented.
 
-## My Role:
+## My Role
 On this project, I assume the role of the data analyst to uncover these insights, provide recommendations that influence decision-making.
 
-## Data Analytics Objective:
+## Data Analytics Objective
 
  - Data Loading and Cleaning: Load the retail sales dataset.
  - Descriptive Statistics: Calculate basic statistics (mean, median, mode, standard deviation).
@@ -22,7 +50,7 @@ On this project, I assume the role of the data analyst to uncover these insights
  - Recommendations: Provide actionable recommendations based on the EDA.
 
 
-## Business Question:
+## Business Question
 
 ### Sales performance
    - What product generates the most revenue
@@ -31,18 +59,17 @@ On this project, I assume the role of the data analyst to uncover these insights
    - What is the product revenue trend in the year 2023?
    - How did the customers behave towards the products(Gender & Age segment)
 
-## Data Analytics steps taken:
-- Data pulling and wrangling: Following the link provided, the dataset was accessible on Kaggle, downloaded from the source as a zip folder. After which, it was unzipped, and a preliminary review of the fields and records on Google Sheet to get a clear understanding of the dataset and its content.
-- I proceeded to work on the date, on Google sheet, and formatted the date column to consist of Day-of-week, Day, Month, and Year.
-- The data was filtered through the rows to ensure consistency of records. All these were done before proceeding to R studio. You may decide to move straight to R Studio. However, I often prefer to have a direct overview of datasets on a spreadsheet before analysing on other platforms such as BigQuery or R studio.
-
-
-### Tools used in this Analysis
+### Tools 
 - Google Sheet - Data set preview and partial formatting
 - R Studio - Data Analysis
 - Tableau - Data Visualisation
 
-## Data Analysis and Wrangling Procedures on R Studio
+## Data preparation and Observation
+- Data pulling and wrangling: Following the link provided, the dataset was accessible on Kaggle, downloaded from the source as a zip folder. After which, it was unzipped, and a preliminary review of the fields and records on Google Sheet to get a clear understanding of the dataset and its content.
+- I proceeded to work on the date, on Google sheet, and formatted the date column to consist of Day-of-week, Day, Month, and Year.
+- The data was filtered through the rows to ensure consistency of records. All these were done before proceeding to R studio. You may decide to move straight to R Studio. However, I often prefer to have a direct overview of datasets on a spreadsheet before analysing on other platforms such as BigQuery or R studio.
+
+### Data Analytics
 
 #### Load the library of the installed packages.
 
@@ -313,7 +340,7 @@ Gender-based analysis reveals differences in product preference and spending pat
 - These patterns suggest that gender-informed product positioning and promotions could enhance category performance without requiring separate marketing campaigns.
 
 
-### Recommendations:
+### Recommendations
 Below are the recommendations for the retail store: 
 - Increase inventory and promotional focus on Electronics during peak months such as May, where demand and revenue peak.
 - Introduce targeted Beauty promotions for Young Adult customers, who show high average spend despite lower overall purchase volume.
