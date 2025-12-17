@@ -12,11 +12,13 @@
 
 - [Tools](tools)
   
-   - [Data preparation and Observation](data-preparation-and-observation)
+- [Data preparation and Observation](data-preparation-and-observation)
   
-- [Data Analytics](data-analytics)
+ - [Data Analytics](data-analytics)
   
    - [Data Cleaning and Manipulation](data-cleaning-and-manipulation)
+  
+- [Descirptive Data Analysis](descriptive-data-analysis)
 
 - [Exploratory Data Analysis](exploratory-data-analysis)
   
@@ -59,7 +61,7 @@ On this project, I assume the role of the data analyst to uncover these insights
    - What is the product revenue trend in the year 2023?
    - How did the customers behave towards the products(Gender & Age segment)
 
-### Tools 
+## Tools 
 - Google Sheet - Data set preview and partial formatting
 - R Studio - Data Analysis
 - Tableau - Data Visualisation
