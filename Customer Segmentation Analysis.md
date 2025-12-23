@@ -322,18 +322,20 @@ This was the age segment from:
   Average: 51,686.962
 
 How did each cluster perform?
-| Cluster Level     | Total Spent | Average Spent | Total Income | Average Income | Number of Customers|
-|-------------------|--------------|----------------|------------|----------------|--------------------|
-| High Spenders     | 740,380      | 1394.31        | 40,248,665 | 75,798         | 531                |
-| Mid Spenders      | 398,543      | 714.23         | 32,104,882 | 57,536         | 558                |
-| Low Spenders      | 89,261       | 95.77          | 32,106,403 | 34,449         | 932                |
+| Cluster Level     | Total Spent | Average Spent | Total Income | Average Income| Balance After Purchase|Number of Customers |
+|-------------------|--------------|---------------|------------|----------------|-----------------------|--------------------|
+| High Spenders     | 740,380      | 1394.31       | 40,248,665 | 75,798         | 39,508,285            |531                 |
+| Mid Spenders      | 398,543      | 714.23        | 32,104,882 | 57,536         | 31,706,339            |558                 |
+| Low Spenders      | 89,261       | 95.77         | 32,106,403 | 34,449         | 32,017,142            |932                 |
 
 
 - Which age group was the biggest spender and why?
-  The highest spenders by age group were the Middle Aged, who spent 436,870, and 532.1 on average. This expenditure level can be attributed to their high income rate, 40,197,278 and 48,961.362 on average, and their purchasing frequency of 821.
 
-  The least spenders by age group were the seniors, who spent 32,936 and 998.1 on average. This difference is due to their low purchasing frequency of 33. Their income rate is 2,154,195, which is also the lowest and infuences their expenditure owing to the fact that they are mostly pensioners, retired, or in care as their age ranges from 74-80 years.
+The highest spenders by age group were the Middle-Aged customers, who generated a total expenditure of 436,870 with an average spend of 532.1. This higher spending pattern is associated with their relatively higher household income and higher purchasing frequency (821 purchases), indicating stronger engagement with the platform.
 
+The Seniors group contributed the lowest total expenditure at 32,936. Although their average spend per customer appears relatively high, this group has a very low purchasing frequency (33 purchases) and a small customer base, which significantly limits their overall contribution. Additionally, their total household income (2,154,195) is the lowest among all age groups, which likely constrains spending capacity.
+
+  
 - What is the overall purchase preference?
   
 | Purchase Preference         | Total Spent    | Average Spent     |
@@ -358,63 +360,34 @@ What is the total amount spent by each age group and segment?
 - Retirement - 344,389
 - Seniors - 32,936
 
+- The difference between household income and the total amount spent: 
+   104459950 - 1228184 = 103,231,766
+
+
 - What were the most and least purchased items?
 - All items were equally sold at a frequency count of 2021.
 - Based on revenue, the most sold item is Wine. Wine was the highest purchased item among the three cluster levels(High, Mid, and Low Spenders) and also among the age groups.
-- The least sold item is Meat. Thisnitem was purchased by mostly High spenders 
+- The least sold item is Sweet. This item was bought in low quantities across all cluster levels and age groups. The table below shows the total and average amount spent on each product.
+  
 | Product Type | Total Amount | Average Amount | Standard Deviation |
 |--------------|--------------|----------------|--------------------|
 | Fruit        | 53,283       | 26.365         | 39.78              |
 | Gold         | 88,766       | 43.92          | 51.68              |
 | Wine         | 619,421      | 306.49         | 337.60             |
-| Meat         | 33,5607      | 166.06         | 219.87             |
+| Meat         | 335,607      | 166.06         | 219.87             |
 | Sweet        | 55,110       | 27.27          | 41.58              |
 | Fish         | 75,997       | 37.60          | 54.89              |
 
+### Website Traffic Vs Website Purchase
+The E-commerce business should be centered around offering seamless digital services, and its most purchased or second-most-preferred purchases should be via the website. 
+However, this E-commerce business falters in establishing its digital presence among the customer base, as only a few customers make purchases online. This is a downside that is evident among the Young adults who are the center of the digital age.
+The E-commerce store's highest web purchase and traffic is accumulated by the Middle-Aged compared to others. While this is not categorically an indication for low conversion owing to their low income, it may be necessary to have an overall review of the Website. Also, a survey among these age groups could determine the items they most prefer to purchase on the web and instore and why.
 
 
+For a more interactive visualization, kindly click on the link to the tableau dashboards of the [Customer Segmentation by Expenditure Level](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CustomerSegmentationAnalysisbyExpenditureLevel/Dashboard1)   and [Customer Segmentation Analysis by Age Group](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CustomerSegmentationinsightsbyAgeGroup/Dashboard2)
 
 
-
-- Overall household income against the total amount spent
-- Percentage 
-- Website Traffic and Website Purchase vs Category
+Business Recommendation 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-| Product Type | Total Amount | Average Amount | Standard Deviation |
-|--------------|--------------|----------------|--------------------|
-| Fruit        | 53,283       | 26.365         | 39.78              |
-| Gold         | 88,766       | 43.92          | 51.68              |
-| Wine         | 61,9421      | 306.49         | 337.60             |
-| Meat         | 33,5607      | 166.06         | 219.87             |
-| Sweet        | 55,110       | 27.27          | 41.58              |
-| Fish         | 75,997       | 37.60          | 54.89              |
 
