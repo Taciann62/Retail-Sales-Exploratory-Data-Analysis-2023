@@ -112,8 +112,7 @@ Food_Data<-Food_Data %>%
   mutate(Total_Amt =rowSums(select(., Fish_Sales, Fruits_Sales, Meat_Sales, Wine_Sales, Gold_Sales, Sweet_Sales), na.rm = TRUE))
 ```
 
-Ensure numeric rows are positive. This was done because the rows data set did not contain any returns or refunds made by the e-commerce store.
-
+All numeric values were converted to absolute values to ensure consistency, as the dataset did not document refunds or returns. This step was taken to prevent analytical distortion caused by undocumented negative entries.
 ```R
 Food_Data <- Food_Data %>% 
   mutate(across(where(is.numeric), abs))
@@ -142,10 +141,10 @@ Overall_Summary <- Food_Data %>%
 
 | Total Income | Average Income| Total Amount Spent  | Average Amount Spent |Median Amount Spent|Standard Deviation|
 |--------------|---------------|---------------------|----------------------|-------------------|------------------|
-| 104,459,950  | 51687.26      | 	1,228,184          |    607.711           |     397           | 602.396
+| 104,459,950  | 51687.26      | 	1,228,184          |    607.711           |     397           | 602.396          |
 
 
-Analysis on each product was conducted as well to understand the sales pattern, most sold, least sold and distribution:
+Analysis on each product was conducted as well to understand the sales pattern, the most sold, the least sold, and the distribution:
 ```R
 Wine_Sales<- Food_Data %>% 
   summarise(Total_Amt_Spent = sum(Wine_Sales), Avg_Amt_spent = mean(Wine_Sales), Sales_COunt = n(), SD = sd(Wine_Sales), Med = median(Wine_Sales))
@@ -365,7 +364,7 @@ What is the total amount spent by each age group and segment?
 
 
 - What were the most and least purchased items?
-- All items were equally sold at a frequency count of 2021.
+- All product categories recorded purchases across the customer base, indicating broad product exposure. 
 - Based on revenue, the most sold item is Wine. Wine was the highest purchased item among the three cluster levels(High, Mid, and Low Spenders) and also among the age groups.
 - The least sold item is Sweet. This item was bought in low quantities across all cluster levels and age groups. The table below shows the total and average amount spent on each product.
   
@@ -381,13 +380,20 @@ What is the total amount spent by each age group and segment?
 ### Website Traffic Vs Website Purchase
 The E-commerce business should be centered around offering seamless digital services, and its most purchased or second-most-preferred purchases should be via the website. 
 However, this E-commerce business falters in establishing its digital presence among the customer base, as only a few customers make purchases online. This is a downside that is evident among the Young adults who are the center of the digital age.
-The E-commerce store's highest web purchase and traffic is accumulated by the Middle-Aged compared to others. While this is not categorically an indication for low conversion owing to their low income, it may be necessary to have an overall review of the Website. Also, a survey among these age groups could determine the items they most prefer to purchase on the web and instore and why.
+The relationship between website traffic and website purchases suggests potential friction in the online purchasing journey. While Middle-Aged customers recorded the highest website traffic and purchases, overall web-based purchasing remains relatively low compared to in-store transactions.
+Due to the absence of time-based and session-level data, conversion efficiency cannot be conclusively determined. However, this pattern highlights an opportunity to further evaluate website usability, product placement, and checkout experience through targeted user research or surveys.
 
 
-For a more interactive visualization, kindly click on the link to the tableau dashboards of the [Customer Segmentation by Expenditure Level](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CustomerSegmentationAnalysisbyExpenditureLevel/Dashboard1)   and [Customer Segmentation Analysis by Age Group](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CustomerSegmentationinsightsbyAgeGroup/Dashboard2)
+For a more interactive visualization, kindly click on the link to the Tableau dashboards of the [Customer Segmentation by Expenditure Level](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CustomerSegmentationAnalysisbyExpenditureLevel/Dashboard1)   and [Customer Segmentation Analysis by Age Group](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CustomerSegmentationinsightsbyAgeGroup/Dashboard2)
 
 
-Business Recommendation 
+### Business Recommendation 
+- Target High Spenders with premium product bundles (especially Wine and Meat) and loyalty incentives to maximize lifetime value.
+- Encourage Mid Spenders to transition to higher-value purchases by promoting personalized discounts and web-exclusive offers, as they demonstrate high engagement across channels.
+- Use discount-driven strategies for Low Spenders to increase purchase frequency while controlling margins.
+- Improve website usability and digital experience, particularly for younger customers, to increase online purchase adoption and reduce reliance on in-store transactions.
+- Conduct customer surveys to better understand channel preference drivers and optimize the omnichannel strategy.
 
 
 
+## Thank You!
