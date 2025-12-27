@@ -1,8 +1,8 @@
 # Airbnb Data Cleaning and Analysis 
 
-## Intorduction
+## Introduction
 This data analytics project was completed as part of the Oasis Infobyte internship program (December Batch 2025). The team provided the data through an open-source data platform, Kaggle. 
-It contains a hosting record of various Airbnb hosts in five neighborhood groups in New york namely: Queens, Staten Island, Manhattan, Brooklyn, and Bronx. 
+It contains a hosting record of various Airbnb hosts in five neighborhood groups in New York namely: Queens, Staten Island, Manhattan, Brooklyn, and Bronx. 
 The data contained key information such as booking prices, minimum nights spent, hostid, reviews etc, with which the analysis will be guided. However, the objective of this data is to
 clean, structure, detect outliers, and analyse. 
 
@@ -127,7 +127,7 @@ Check for Outliers
 
 boxplot(AB_NYC$price , main = "Boxplot of Price", ylab = "Total Prices", col = "Red")
 
-<img width="533" height="294" alt="Box Plot with Outliers" src="https://github.com/user-attachments/assets/fc481f3b-fb6c-452b-bbdc-090ef3b01fa3" />
+<img width="533" height="294" alt="Box plot with Outliers" src="https://github.com/user-attachments/assets/fc481f3b-fb6c-452b-bbdc-090ef3b01fa3" />
 
 
 ## Fix outliers in prices
@@ -171,7 +171,7 @@ summary(AB_NYC_Final$price)
 Result: Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 10      65     100     120     159     334 
 
-## PLot
+## plot
 ```R
 library(ggplot2)
 
