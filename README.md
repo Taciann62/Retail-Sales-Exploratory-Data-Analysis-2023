@@ -95,6 +95,9 @@ This suggests that while Young Adults are not the highest revenue drivers, targe
 However, to limit waste, the retail store should maintain quantity and also check for specifically demanded beauty products requested by this age group and push along other products with them, to ensure availability and also pricing review to provide affordable and quality products for the age group.
 
 
+<img width="1366" height="768" alt="Retail Store Customer Behaviour Viz" src="https://github.com/user-attachments/assets/f35af086-13f6-4e5e-8629-c2703e3e68b7" />
+
+
 #### Gender-based Purchasing Behaviour
 Gender-based analysis reveals differences in product preference and spending patterns across categories.
 - Female customers contributed a slightly higher share of total revenue, driven largely by Clothing and Electronics purchases, but high Beauty purchases compared to Male customers.
